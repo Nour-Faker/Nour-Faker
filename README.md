@@ -5,74 +5,85 @@
 </p>
 
 <p align="center">
-  <b>Software Engineering Student | Backend Systems | Machine Learning | AI Systems</b>
-</p>
-
----
-
-<!-- ===================== BADGES ===================== -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Expert-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi">
-  <img src="https://img.shields.io/badge/Machine%20Learning-In%20Progress-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/AI%20Systems-Learning-purple?style=for-the-badge">
+  <b>Computer Science Engineering Student — ENICarthage | Backend Systems | AI Systems | Machine Learning</b>
 </p>
 
 ---
 
 ## 🧠 About Me
 
-I’m a software engineering student focused on building **backend systems and machine learning applications**, with a long-term direction toward **AI systems engineering (LLMs + Agents + scalable infrastructure)**.
+I am a Computer Science Engineering student focused on building **scalable backend systems and applied AI applications**.
 
-I care about:
-- clean system design  
-- production-ready code  
-- real-world problem solving  
-- moving from “projects” → “systems”  
+My direction is toward **AI Systems Engineering**, combining:
+- Machine Learning
+- LLM-based systems
+- Backend architecture
 
----
-
-## ⚙️ Tech Stack
-
-**Languages**  
-Python · C/C++ · JavaScript · SQL  
-
-**Backend**  
-FastAPI · Laravel · REST APIs · JWT Authentication  
-
-**Machine Learning / AI**  
-scikit-learn · pandas · numpy · PyTorch (learning phase)  
-
-**Databases**  
-PostgreSQL · MySQL · SQLite  
-
-**Tools**  
-Git · Linux · Docker (learning)  
+I prioritize **clean design, real-world applications, and system thinking over tutorial-based learning**.
 
 ---
 
-## 📊 GitHub Stats
+## ⚙️ Technical Focus
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Fnour790&show_icons=true&theme=tokyonight" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fnour790&layout=compact&theme=tokyonight" height="160">
-</p>
+**Backend Development**
+- FastAPI, REST APIs, JWT Authentication
+- Laravel, PHP
+- System design fundamentals
+
+**Machine Learning / AI**
+- scikit-learn, NumPy, pandas
+- Computer Vision (OpenCV, MediaPipe)
+- Prompt engineering & LLM APIs
+
+**Software Engineering**
+- Data Structures & Algorithms
+- OOP & clean architecture
+- Database design
 
 ---
 
-## 🚀 Current Focus
+## 🚀 Selected Projects
 
-- Machine Learning fundamentals (models, evaluation, statistics)
-- Backend system design (scalability, structure, APIs)
-- LLM integration (local models, API-based systems)
-- Transition toward AI agent systems
+**StyleAI — AI Stylist System**  
+Python · FastAPI · FashionCLIP · Claude API  
+→ AI-based outfit recommendation system using image embeddings and LLM reasoning.
+
+**Smart Hand Gesture Mouse Controller**  
+Python · OpenCV · MediaPipe  
+→ Real-time gesture-based cursor control system.
+
+**SmartEMS — Emergency Dispatch System**  
+Python · A* Algorithm  
+→ Optimized ambulance routing system for reduced response time.
+
+**CineSearch — Movie Discovery Platform**  
+React · Vite · TMDB API  
+→ Real-time movie search and recommendation system.
+
+---
+
+## 🎓 Education
+
+**ENICarthage — Computer Science Engineering** (2025 – Present)  
+Courses: Algorithms, Data Structures, Software Engineering, AI, Databases, OS, Networks
+
+**IPEIN — Preparatory Classes (PC)** (2023 – 2025)  
+Mathematics, Physics, Algorithms, Problem Solving
+
+---
+
+## 🧭 Current Focus
+
+- Strengthening Machine Learning fundamentals  
+- Building production-grade backend systems  
+- Exploring LLM-based applications and agents  
+- Improving system design thinking  
 
 ---
 
 ## 🎯 Goal
 
-Become an **AI Systems Engineer** building:
+To become an **AI Systems Engineer** building:
 - intelligent ML systems  
 - LLM-powered applications  
 - scalable backend architectures  
@@ -86,8 +97,6 @@ Become an **AI Systems Engineer** building:
 - Email: nour.faker@enicar.ucar.tn  
 
 ---
-
-<!-- ===================== FOOTER ===================== -->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0ea5e9&height=120&section=footer"/>
