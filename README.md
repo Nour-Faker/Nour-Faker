@@ -126,9 +126,9 @@ I aspire to become an **AI Systems Engineer** capable of building:
 
 📧 **nour.faker@enicar.ucar.tn**
 
-💼 **LinkedIn:** linkedin.com/in/nour-faker
+💼 **LinkedIn:** linkedin.com/nour-faker
 
-💻 **GitHub:** github.com/Fnour790
+💻 **GitHub:** github.com/Nour-Faker
 
 ---
 
