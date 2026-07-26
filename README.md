@@ -162,7 +162,6 @@ Now         →  Internship · Docker · Agentic AI · Production systems
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌸_Portfolio-nourfaker--portfolio.netlify.app-c084fc?style=for-the-badge)](https://nourfaker-portfolio.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nour_Faker-818cf8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nour-faker-82b691386/)
 [![GitHub](https://img.shields.io/badge/GitHub-Nour--Faker-f9a8d4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nour-Faker)
 [![Email](https://img.shields.io/badge/Email-nour.feker2004@gmail.com-a855f7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nour.feker2004@gmail.com)
