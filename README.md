@@ -1,175 +1,115 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9de2,30:c084fc,60:818cf8,100:38bdf8&height=220&section=header&text=Nour%20Faker&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20in%20Progress%20·%20ENICarthage%20·%20Tunisia%20🌸&descAlignY=60&descSize=17&descColor=e9d5ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9de2,30:c084fc,60:818cf8,100:38bdf8&height=200&section=header&text=Nour%20Faker&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Backend%20Engineer%20·%20ENICarthage%20·%20Tunisia&descAlignY=60&descSize=17&descColor=ffffff" />
 
-</div>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2500&pause=900&color=C084FC&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=50&lines=🔧+Building+a+GitHub+PR+AI+reviewer+at+Smartovate+Ltd.;🌸+FastAPI+·+Docker+·+LLMs+·+RAG+·+PostgreSQL+·+Agents)](https://git.io/typing-svg)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  profile = {                                                 ║
-║    name      : "Nour Faker",                                 ║
-║    role      : "CS Engineering @ ENICarthage — Year 2",      ║
-║    internship: "AI Engineer @ Smartovate Ltd. (ongoing)",    ║
-║    building  : "Production AI systems. Not tutorials.",      ║
-║    stack     : ["FastAPI", "Docker", "LLMs", "RAG"],        ║
-║    open_to   : "AI engineering roles & collaborations 🌸",   ║
-║  }                                                           ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## 🔧 Currently Building — AI Code Review Agent *(Smartovate Ltd.)*
-
-> A production-grade GitHub PR reviewer powered by an LLM — built for a real cloud consulting firm.
-
-- **Sprint 1** — FastAPI webhook receiver with HMAC-SHA256 verification, deployed live on Railway
-- **Sprint 2** — LLM integration: analyzing PR diffs, posting structured review comments via GitHub API
-- **Architecture decisions I own:** GitHub App auth vs PAT · raw diff vs `/files` endpoint · file filtering
-
-```
-Stack  : FastAPI · Python · GitHub Webhooks · HMAC-SHA256 · Docker · Railway · LLM
-Status : Sprint 2 in progress
-```
-
----
-
-## 🌷 Things I've Built
-
----
-
-### 📄 RAG PDF Q&A API
-Upload any PDF. Ask questions. Get answers grounded in your document with source citations — no hallucination, no cloud cost.
-
-Built the full pipeline from scratch: recursive chunking → nomic embeddings → ChromaDB cosine search → cross-encoder reranking → local LLM. Every design decision was deliberate — I debugged cosine vs L2 distance, tuned chunk overlap, and added reranking because vector similarity ≠ relevance.
-
-```
-Stack : FastAPI · ChromaDB · Ollama · nomic-embed-text · Cross-Encoder · Docker
-Repo  : github.com/Nour-Faker/rag-api
-```
-
----
-
-### 📒 Notes API — Production-Grade REST API
-Not a CRUD demo. JWT auth with bcrypt, PostgreSQL + SQLAlchemy + Alembic migrations, Docker with healthchecks, 9-test pytest suite.
-
-```
-Stack : FastAPI · PostgreSQL · SQLAlchemy · Alembic · JWT · Docker · pytest
-Repo  : github.com/Nour-Faker/notes-api
-```
-
----
-
-### 🎓 Wejheti — ML University Orientation Predictor
-XGBoost trained on real Tunisian BAC data. Temporal train/test split to prevent leakage. Engineered a `score_delta` feature to capture grade trends.
-
-```
-Stack : XGBoost · FastAPI · Streamlit · pandas · scikit-learn
-Repo  : github.com/Nour-Faker/Wejheti
-```
-
----
-
-### 🤖 StyleAI — AI Personal Stylist
-Four services. One pipeline: FashionCLIP encodes wardrobe → Qdrant stores vectors → Claude generates outfits → Weather API adapts recommendations to today's forecast.
-
-```
-Stack : FastAPI · FashionCLIP · Claude API · Next.js · Qdrant · SQLAlchemy
-Repo  : github.com/Nour-Faker/StyleAI
-```
-
----
-
-### 🚑 SmartEMS Tunisia — Emergency Dispatch System
-A* pathfinding on a real Tunis street graph. Priority dispatch logic. Handles edge cases: no available unit, blocked routes.
-
-```
-Stack : Python · A* Algorithm · Graph Theory
-Repo  : github.com/Nour-Faker/SmartEMS-Tunisia
-```
-
----
-
-### 🖐️ HandGesture Control — CV Mouse
-Control your cursor with hand gestures via webcam. Real-time pipeline using MediaPipe landmark detection + OpenCV.
-
-```
-Stack : Python · OpenCV · MediaPipe
-Repo  : github.com/Nour-Faker/HandGesture-Control
-```
-
----
-
-## 🌱 My Arc So Far
-
-```
-Semester 1  →  C / C++ · Algorithms · Data Structures · Discrete Math
-Semester 2  →  Python · FastAPI · PostgreSQL · ML · RAG · Computer Vision
-Now         →  Internship · Docker · Agentic AI · Production systems
-```
-
----
-
-## 💜 Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-818cf8?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-c084fc?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-a855f7?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-7dd3fc?style=for-the-badge&logo=docker&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-818cf8?style=for-the-badge)
-![Ollama](https://img.shields.io/badge/Ollama-c084fc?style=for-the-badge)
-![Claude API](https://img.shields.io/badge/Claude_API-a855f7?style=for-the-badge)
-![XGBoost](https://img.shields.io/badge/XGBoost-f9a8d4?style=for-the-badge)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-818cf8?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-c084fc?style=for-the-badge&logo=opencv&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-a855f7?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-7dd3fc?style=for-the-badge&logo=railway&logoColor=white)
-
-</div>
-
----
-
-## 🌸 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Nour-Faker&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=a855f7&text_color=f9a8d4" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nour-Faker&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=f9a8d4&langs_count=6" />
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Nour-Faker&theme=tokyonight&hide_border=true&background=0d1117&ring=c084fc&fire=a855f7&currStreakLabel=c084fc&sideLabels=f9a8d4&dates=6b7280)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 💌 Let's Connect
-
-<div align="center">
+**I build LLM-powered backend systems: APIs, retrieval pipelines and the tooling around them to run reliably.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nour_Faker-818cf8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nour-faker-82b691386/)
-[![GitHub](https://img.shields.io/badge/GitHub-Nour--Faker-f9a8d4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nour-Faker)
-[![Email](https://img.shields.io/badge/Email-nour.feker2004@gmail.com-a855f7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nour.feker2004@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-nourfaker--portfolio-c084fc?style=for-the-badge&logo=netlify&logoColor=white)](https://nourfaker-portfolio.netlify.app)
+[![Email](https://img.shields.io/badge/Email-nour.faker@enicar.ucar.tn-a855f7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nour.faker@enicar.ucar.tn)
+
+</div>
+
+---
+
+## 👋 About
+
+Second-year computer engineering student at **ENICarthage** (Tunis). This summer I interned as an **AI Engineer at Smartovate Ltd.**, where I built and deployed a GitHub pull-request review service on Azure. I'm looking for **AI / backend engineering internships and junior roles**, and for teams to build with.
+
+| | |
+|---|---|
+| 🎓 **Studying** | Computer Science Engineering, ENICarthage (2025 – present) |
+| 💼 **Experience** | AI Engineer Intern, Smartovate Ltd. (Jul–Aug 2026) · Senior Member, Melkart Junior Enterprise |
+| 🧰 **Core stack** | Python · FastAPI · PostgreSQL · Docker · Azure · RAG · LLM APIs |
+| 🌱 **Learning now** | Evaluating RAG systems · reliable async backends · agentic AI · ML in production |
+
+---
+
+## 🔧 Featured Work
+
+### 1 · GitHub PR Code Review Service — *Smartovate Ltd. internship*
+An LLM-powered reviewer that comments on pull requests automatically.
+
+- **Secure ingestion:** FastAPI webhook receiver with HMAC-SHA256 signature verification
+- **Pipeline:** `DiffExtractor → LLMAnalyzer (Azure OpenAI gpt-5-mini) → RateLimiter → GitHubCommenter`, with severity tagging, bot-loop prevention and an @mention handler
+- **Delivery:** Dockerized, deployed on Azure App Service, GitHub Actions CI with **37 tests (~30 s)**
+- **Dashboard:** React app with live PR reviews, severity charts and an "Ask the Agent" chat
+- **Decisions I owned:** GitHub App auth vs PAT · raw diff vs `/files` endpoint · file filtering
+
+`FastAPI` `Azure OpenAI` `Docker` `Azure App Service` `GitHub Actions` `React`  ·  [**Code →**](https://github.com/Nour-Faker/github-review-agent)
+
+### 2 · ClaimGuard AI — *CSTAM × Velodoc challenge, built with [Wassim](https://github.com/wassimkraiem243)*
+A human-supervised copilot that pre-validates healthcare claims before submission.
+
+- Ingests synthetic claims as **JSONL, CSV bundles or FHIR** and normalizes them to a single claim envelope
+- **Rules-first validation:** a deterministic engine of 15 rules (R001–R015) returns explainable results, with an optional local LLM explaining the findings
+- Monorepo: **FastAPI** API, **Next.js** dashboard, shared types, **PostgreSQL + pgvector**, Docker Compose
+
+`FastAPI` `Next.js` `PostgreSQL` `pgvector` `Ollama` `Docker`  ·  [**Code →**](https://github.com/wassimkraiem243/ClaimGuardAI)
+
+### 3 · RAG PDF Q&A API
+Upload a PDF and ask questions. Answers come with source citations and run fully locally, at no cloud cost.
+
+Pipeline: recursive chunking → nomic embeddings → ChromaDB cosine search → cross-encoder reranking → local LLM. Along the way I debugged cosine vs L2 distance, tuned chunk overlap, and added reranking because vector similarity ≠ relevance.
+
+`FastAPI` `ChromaDB` `Ollama` `Cross-Encoder` `Docker`  ·  [**Code →**](https://github.com/Nour-Faker/rag-api)
+
+---
+
+## 🧪 More Projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| [**Smart Study Hub**](https://github.com/Nour-Faker/smart-study-api) | PDF study assistant: upload → embeddings → LLM answers, with JWT auth and migrations | FastAPI · PostgreSQL · ChromaDB · Ollama · Docker |
+| **Notes API** | REST API with JWT + bcrypt, Alembic migrations, healthchecked Docker setup, 9-test pytest suite | FastAPI · PostgreSQL · Alembic · pytest |
+| [**Wejheti**](https://github.com/Nour-Faker/Wejheti) | Predicts university orientation from real Tunisian BAC data; temporal train/test split to prevent leakage | XGBoost · scikit-learn · FastAPI · Streamlit |
+| [**StyleAI**](https://github.com/Nour-Faker/StyleAI) | Four-service stylist: FashionCLIP embeddings → Qdrant → Claude outfit generation, adapted to the weather | FastAPI · Next.js · Qdrant · Claude API |
+| [**SmartEMS-Tunisia**](https://github.com/Nour-Faker/SmartEMS-Tunisia) | Ambulance dispatch using A* on a real Tunis street graph, with priority logic and blocked-route handling | Python · A* |
+| [**HandGesture-Control**](https://github.com/Nour-Faker/HandGesture-Control) | Webcam hand-tracking virtual mouse | OpenCV · MediaPipe |
+
+---
+
+## ⚙️ How I Build
+
+- **Verify, don't trust:** signed webhooks, JWT with hashed passwords, per-user data isolation
+- **Make it reproducible:** Docker with healthchecks, Alembic migrations, CI on every push
+- **Test the pipeline:** pytest suites, isolated test databases
+- **Prevent leakage and fakes:** temporal splits in ML, source citations in RAG
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-818cf8?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-c084fc?style=flat-square&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-a855f7?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-7dd3fc?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-818cf8?style=flat-square&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-c084fc?style=flat-square&logo=microsoftazure&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-a855f7?style=flat-square&logo=githubactions&logoColor=white)
+![React](https://img.shields.io/badge/React-7dd3fc?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-818cf8?style=flat-square&logo=nextdotjs&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-c084fc?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-a855f7?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-7dd3fc?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-818cf8?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-f9a8d4?style=flat-square)
+
+</div>
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=Nour-Faker&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=a855f7&text_color=f9a8d4" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nour-Faker&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=f9a8d4&langs_count=6" />
 
 <br/>
 
-> *I build things that work in production, not just in notebooks.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,30:818cf8,60:c084fc,100:ff9de2&height=120&section=footer&text=Year+2.+Real+internship.+Production+systems.+🌸&fontSize=15&fontColor=ffffff&fontAlignY=65"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,30:818cf8,60:c084fc,100:ff9de2&height=100&section=footer" />
 
 </div>
